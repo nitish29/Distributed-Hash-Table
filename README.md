@@ -1,5 +1,8 @@
-# Distributed-Hash-Table (Simple Key-Value storage based on Chord design.)
-=========================================================
+# Distributed Hash Table
+***
+<!---=========================================================--->
+
+* Distributed Hah Table is a Simple Key-Value storage based on Chord design.
 
 * The Simplified version of Chord covers three things:
     * ID space partitioning/re-partitioning.
