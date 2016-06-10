@@ -1,15 +1,16 @@
-# Distributed-Hash-Table
+# Distributed-Hash-Table (Simple Key-Value storage based on Chord design.)
 =========================================================
-***
-* Simple Key-Value storage based on Chord design.
-* Simplified version of Chord, covers three things:
+
+* The Simplified version of Chord covers three things:
     * ID space partitioning/re-partitioning.
     * Ring based routing
     * Node joins
 
 * SHA-1 hash function is used to lexically arrange nodes in a ring and find the location for a particular key to be stored.
+
 * Each node maintains a successor and predecessor pointer for nodes in the ring.
-* Content Provider is FileBased key-value storage where:
+
+* Content Provider is File Based key-value storage where:
     - The first column name is “key” and is used to store all keys. 
     - The second column is “value” and is used to store all values associated with corresponding keys.
 
@@ -24,12 +25,12 @@
 
 ### LDump
 
-- When touched, this button dumps and displays all the <key, value> pairs stored in your local partition of the node.
+- When touched, this button dumps and displays all the <key, value> pairs stored in local partition of the node.
 
 
 ### GDump
 
-- When touched, this button dumps and displays all the <key, value> pairs stored in your whole DHT.
+- When touched, this button dumps and displays all the <key, value> pairs stored in the entire DHT.
 
 
 ## References
